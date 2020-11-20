@@ -20,3 +20,12 @@ dependencies {
         implementation 'com.github.im-aqibMalik:AndroidStudio-USBpath:1.0'
 }
 At this point, you are good to go. Just add READ and WRITE External storage permissions if you have not already.
+
+HOW TO GET PATH:
+#CODE 
+USBpath path = new USBpath(this);
+if(path.getPath() != null){
+     File rootDir = new File(path.getPath());
+}
+
+The rootDir now contain path to USB storage from where you can read and write files into USB.
