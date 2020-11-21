@@ -17,7 +17,7 @@ allprojects {
 Step 2. Add the dependency
 
 dependencies {
-        implementation 'com.github.im-aqibMalik:AndroidStudio-USBpath:1.0'
+        implementation 'com.github.im-aqibMalik:USB-Path:1.0'
 }
 At this point, you are good to go. Just add READ and WRITE External storage permissions if you have not already.
 
