@@ -20,7 +20,7 @@ Get root path to your USB storage with one line of code
  
 
       dependencies {
-                implementation 'com.github.im-aqibMalik:USB-Path:1.0'
+                implementation 'com.github.aqib-ilyas:USB-Path:1.0'
       }
 
 
